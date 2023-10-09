@@ -3,15 +3,19 @@
       <TestComp />
       <br>
       <Exercise202 />
+      <br>
+      <Exercise203 />
   </div>
 </template>
 <script>
 import TestComp from './components/TestComp.vue'
 import Exercise202 from './components/Exercise2-02.vue'
+import Exercise203 from './components/Exercise2-03.vue'
   export default{
     components: {
       TestComp,
       Exercise202,
+      Exercise203
 
     }
 
