@@ -31,6 +31,12 @@ export default {
             this.product.price--
         }
     },
+    watch: {
+        'product.price'(){
+            this.discount++
+        },
+
+    },
 
 }
 
